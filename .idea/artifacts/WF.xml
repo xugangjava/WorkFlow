@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WF">
+    <output-path>D:/TM8/webapps/WF</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WF" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="weblib" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/activiti-ui-context.xml" />
+        <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/applicationContext.xml" />
+        <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/spring-mvc.xml" />
+        <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" />
+      </element>
+      <element id="directory" name="api">
+        <element id="dir-copy" path="$PROJECT_DIR$/WebRoot/api" />
+      </element>
+      <element id="directory" name="diagram-viewer">
+        <element id="dir-copy" path="$PROJECT_DIR$/WebRoot/diagram-viewer" />
+      </element>
+      <element id="directory" name="editor">
+        <element id="dir-copy" path="$PROJECT_DIR$/WebRoot/editor" />
+      </element>
+      <element id="directory" name="explorer">
+        <element id="dir-copy" path="$PROJECT_DIR$/WebRoot/explorer" />
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="dir-copy" path="$PROJECT_DIR$/WebRoot/META-INF" />
+      </element>
+      <element id="directory" name="VAADIN">
+        <element id="dir-copy" path="$PROJECT_DIR$/WebRoot/VAADIN" />
+      </element>
+      <element id="directory" name="libs">
+        <element id="dir-copy" path="$PROJECT_DIR$/WebRoot/libs" />
+      </element>
+    </root>
+  </artifact>
+</component>
